@@ -7,12 +7,32 @@ html,
 body {
   font-family: "Roboto", sans-serif;
 }
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
 
 .wrapper {
   max-width: 1100px;
   margin: auto;
   padding: 0 1.125rem;
   margin-top: 100px;
+}
+.btn {
+  cursor: pointer;
+  border: none;
+  font-size: 19px;
+  border-radius: 10px;
+}
+.btn-primary {
+  background-color: hsl(249, 76%, 52%);
+  color: #fff;
+  padding: 0.6em 1.2em;
 }
 .img-section {
   position: relative;
@@ -46,4 +66,45 @@ body {
 }
 .personal-details p {
   font-size: 0.875rem;
+}
+.socials {
+  padding: 1rem 0;
+}
+.socials h4 {
+  padding: 0.5rem 0 1rem 0;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+.social-links a {
+  display: inline-block;
+  padding: 0 0.5rem;
+  color: #333;
+}
+.content-body section {
+  padding: 1rem 1.5rem;
+}
+.content-body section h1 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.content-body p {
+  line-height: 1.5;
+}
+.languages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem 0;
+}
+.languages li {
+  flex-basis: 120px;
+  padding: 1rem;
+  cursor: pointer;
+}
+.skills .actions {
+  text-align: center;
+  padding: 1rem 0;
 }

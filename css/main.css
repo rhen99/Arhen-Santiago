@@ -21,7 +21,7 @@ img {
   max-width: 1100px;
   margin: auto;
   padding: 0 1.125rem;
-  margin-top: 100px;
+  margin: 100px 0;
 }
 .btn {
   cursor: pointer;
@@ -83,6 +83,9 @@ img {
   padding: 0 0.5rem;
   color: #333;
 }
+.social-links a:hover {
+  color: hsl(249, 76%, 52%);
+}
 .content-body section {
   padding: 1rem 1.5rem;
 }
@@ -92,6 +95,7 @@ img {
 }
 .content-body p {
   line-height: 1.5;
+  padding-bottom: 1rem;
 }
 .languages {
   display: flex;

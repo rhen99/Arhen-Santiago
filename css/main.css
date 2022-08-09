@@ -118,3 +118,17 @@ img {
     margin: auto;
   }
 }
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: hsl(0, 0%, 14%);
+  }
+  .content {
+    background-color: hsla(0, 0%, 30%, 0.5);
+    color: #fff;
+  }
+  .social-links a {
+    color: #fff;
+  }
+}
+@media (prefers-color-scheme: light) {
+}
